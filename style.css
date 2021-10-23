@@ -46,6 +46,19 @@ height: 812px;
   position: absolute;
   top: -15px;
   z-index: 1;
+  animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    0% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
 }
 
 .avatar > img {
@@ -84,15 +97,14 @@ h1 {
   gap: 0.5rem;
 }
 
-li a:hover {
-  width: 45px;
-  height: 45px;
-  border: 1px;
-  border-style: solid;
-  border-color: #13111b;
-  transition: 0.2s;
-  border-bottom-color: #f35653;
-  border-radius: 15%;
-}
+li {
+    position: relative;
+    top: 0;
+    transition: all ease 0.3s;
+  }
+li:hover {  
+    top: -8px;
+  }
+
 
 
