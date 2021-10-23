@@ -2,9 +2,9 @@
 //Altere para o seu usuário nas respectivas redes sociais.
 const SocialMediaLinks = {
   github: "kmoscon",
-  youtube: "pewdiepie",
+  youtube: "kaykymoscon",
   facebook: "kayky.moscon",
-  instagram: "kaymsc",
+  instagram: "kayky.moscon",
   twitter: "@Mosconzinho" 
 }
 
